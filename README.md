@@ -33,7 +33,7 @@ This program requires a precalculation of necessary data prior to running the se
 
 	The representatives that you can choose from can be found in the third column of `output.csv`.
 
-    The program will print on the screen the best set of columns and update this information whenever it finds something better. This set of columns is nothing less than the covering array in compact form; to see how we obtain the actual matrix, check Section 4.4.
+    The program will print on the screen the best set of columns and update this information whenever it finds something better. This set of columns is the covering array in compact form; to see how we obtain the actual matrix, check Section 4.4.
 
 ## Some details on the precalculations
 
