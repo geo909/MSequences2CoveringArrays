@@ -1,7 +1,7 @@
 #!/usr/bin/env sage
 """
 See README.md for details
-Run 'sage precalculations.sage -h' for list of options
+Run 'sage precalculations.sage -h' for a list of options
 """
 
 # Command line arguments; run "sage precalculations.sage -h" to see
