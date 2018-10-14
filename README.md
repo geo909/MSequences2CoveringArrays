@@ -27,7 +27,7 @@ This program requires a precalculation of necessary data prior to running the se
 
 	* m is the degree of the finite field extension
 	* q is the prime power of the finite field
-	* r<sub>1</sub>, ..., r<sub>l</sub> are the representatives that we run the search for
+	* r<sub>1</sub>, ..., r<sub>l</sub> are the representatives that we run the search for
 
 	The representatives that you can choose from can be found in the third column of `output.csv`.
 
