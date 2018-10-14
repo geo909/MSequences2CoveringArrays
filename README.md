@@ -19,7 +19,7 @@ This program requires a precalculation of necessary data prior to running the se
 	primepowers=[2,3,4,5,7,8,9,11,13,16,17]
 	degrees=[4,5,6,7]
 	```
-2. Run `sage precalculations.sage`. This will store the necessary data in the files `data/polynomInfo.dat` and `data/sequences.dat`; next time precalculations are performed, any previously stored data in these files will not be re-computed.
+2. Run `sage precalculations.sage`. This will store (using python's pickle) the necessary data in the files `data/polynomInfo.dat` and `data/sequences.dat`; next time precalculations are performed, any previously stored data in these files will not be re-computed.
 
 3. Run  `sage precalculations.sage -d > output.csv`. This will dump the stored data into the text file `output.csv`. As the extension suggests, this is a comma-separated file, so you can look at the data yourself by opening it with a spreadsheet program.
 
