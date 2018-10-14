@@ -1,6 +1,6 @@
 # PhD thesis companion code
 
-This is the companion code of my PhD thesis.
+This is the companion code of [my PhD thesis](http://people.math.carleton.ca/~gtzanaki/project/phd-thesis).
 This program relies on several areas of discrete mathematics and a rather involved type of backtracking, to output covering arrays using a compact notation.
 A more convoluted cythonized version, produced dramatic improvements over previously known covering arrays.
 In the context of combinatorial testing, that meant up to 38% less tests required for some cases of parameters; for more information on combinatorial testing for software and its connection to covering arrays, you can check [this overview](https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software).
