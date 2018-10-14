@@ -8,7 +8,7 @@ In the context of combinatorial testing, that meant up to 38% less tests require
 Understanding what this program does and how it works requires a certain familiarity with [my thesis](http://people.math.carleton.ca/~gtzanaki/project/phd-thesis), especially Chapter 4.
 *The rest of this README assumes notations and definitions from that chapter and some understanding of the basic concepts that are discussed thereof.*
 
-Requirements: Python v2.6-2.7, sage and linux
+Requirements: Python v2.6-2.7, Sage. Also, this has not been tested on Windows.
 
 ## Usage
 
