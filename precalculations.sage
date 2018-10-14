@@ -96,7 +96,8 @@ for m in degrees:
             f=PrimPol_q(m,q)[0] # Polynomial in K.<x>; see definitions.sage
             Fm.<alpha>=f.root_field()
 
-            # Calcuate the lists of the zero indexes, of a chunk of size (q^m-1)/(q-1) for all the distinct sequences corresponding to the representatives, and save them.
+            # Calcuate the lists of the zero indexes, of a chunk of size (q^m-1)/(q-1) 
+            # for all the distinct sequences corresponding to the representatives, and save them.
             for i in repr:
                 sequences[m][q][i]=ZerosOfSequence(m,q,i)
                 # Print progress:
