@@ -24,7 +24,8 @@ def PrimPol_q(n,q):
     for const in [i for i in F if i <> 0]: 
         for i in itertools.product(F,repeat=n-1):
             middle_of_poly=[j for j in i]          
-            # "..+[1]" the leading coefficient is 1; we only need to test monic polynomials
+            # "..+[1]" the leading coefficient is 1; we only need 
+            # to test monic polynomials
             testpoly=[const]+middle_of_poly+[1] 
             f=K(testpoly)
             if f.is_primitive():
@@ -45,8 +46,8 @@ def Representatives(m,q):
         i=min(Zw)
         Ci=[((i*p^r) % w) for r in range(m*n)]
         Zw.difference_update(Ci) #Zw <- Zw \ Ci
-
-        # Find a coset leader corresponding to a primitive, if it exists (see Remark 4.26)
+        # Find a coset leader corresponding to a primitive, 
+        # if it exists (see Remark 4.26)
         Ci_prim=[x for x in Ci if gcd(x,q^m-1)==1]
         if Ci_prim: # It could be empty
             Repr.append(min(Ci_prim)) 
@@ -56,22 +57,20 @@ def Representatives(m,q):
 def ZerosOfSequence(m,q,i):
     """
     Input: The degree m, the prime power q and the representative i
-    Output: A list of the zero positions in the first chunk of size (q^m-1)/(q-1), of the lfsr corresponding to alpha^i, where Fq^m=Fq(a)
+    Output: A list of the zero positions in the first chunk of size 
+            (q^m-1)/(q-1), of the lfsr corresponding to alpha^i, where 
+            Fq^m=Fq(a)
     """
-
     F=GF(q)
     K.<x>=F[]
     f=PrimPol_q(m,q)[0] # Polynomial in K.<x>; see definitions.sage
     Fm.<alpha>=f.root_field()
     w=(q^m-1)/(q-1)
     g=(alpha^i).minpoly()
-
     initstate=[int(x) for x in bin(1)[2:].zfill(m)] # Create 000..001
-
-    connectionpol=[-c for c in g.list()] # See the definition of connection polynomial
-
+    # See the definition of connection polynomial
+    connectionpol=[-c for c in g.list()] 
     s=lfsr_sequence(connectionpol,initstate,w)
-    
     zeropositions=[]
     for (i,j) in enumerate(s):
         if j==0:
