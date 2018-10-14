@@ -21,7 +21,7 @@ This program requires a precalculation of necessary data prior to running the se
 	```
 2. Run `sage precalculations.sage`. This will store (using python's pickle) the necessary data in the files `data/polynomInfo.dat` and `data/sequences.dat`; next time precalculations are performed, any previously stored data in these files will not be re-computed.
 
-3. Run  `sage precalculations.sage -d > output.csv`. This will dump the stored data into the text file `output.csv`. As the extension suggests, this is a comma-separated file, so you can look at the data yourself by opening it with a spreadsheet program.
+3. Run  `sage precalculations.sage -d > output.csv`. This will dump the stored data into the text file `output.csv`. As the extension suggests, this is a file of comma-separated values, which means that you can look at the data yourself by opening it with a spreadsheet program.
 
 4. Now you can run a search by `python2 search.py m q r1 ... rl` where
 
