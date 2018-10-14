@@ -1,4 +1,4 @@
-# PhD thesis companion code
+# Covering arrays from maximal sequences
 
 This is the companion code of [my PhD thesis](http://people.math.carleton.ca/~gtzanaki/project/phd-thesis).
 This program relies on several areas of discrete mathematics and a rather involved type of backtracking, to output covering arrays using a compact notation.
