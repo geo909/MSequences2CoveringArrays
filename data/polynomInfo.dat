@@ -1,0 +1,90 @@
+(dp0
+csage.rings.integer
+make_integer
+p1
+(S'4'
+p2
+tp3
+Rp4
+(dp5
+g1
+(S'2'
+p6
+tp7
+Rp8
+S'x^4 + x^3 + 1'
+p9
+sg1
+(S'3'
+p10
+tp11
+Rp12
+S'x^4 + x^3 + 2'
+p13
+sg4
+S'x^4 + (a + 1)*x^3 + a*x^2 + a. F4 is constructed as F_2(a), where a is the root of x^2 + x + 1.'
+p14
+sg1
+(S'5'
+p15
+tp16
+Rp17
+S'x^4 + x^3 + 2*x^2 + 2'
+p18
+sg1
+(S'7'
+p19
+tp20
+Rp21
+S'x^4 + x^3 + x^2 + 3'
+p22
+sg1
+(S'8'
+p23
+tp24
+Rp25
+S'x^4 + a*x^3 + a. F8 is constructed as F_2(a), where a is the root of x^3 + x + 1.'
+p26
+sg1
+(S'9'
+p27
+tp28
+Rp29
+S'x^4 + a*x^3 + a. F9 is constructed as F_3(a), where a is the root of x^2 + 2*x + 2.'
+p30
+sg1
+(S'b'
+p31
+tp32
+Rp33
+S'x^4 + 4*x^3 + 2'
+p34
+sg1
+(S'd'
+p35
+tp36
+Rp37
+S'x^4 + 6*x^3 + 2*x^2 + 2'
+p38
+sg1
+(S'g'
+p39
+tp40
+Rp41
+S'x^4 + a^2*x^3 + a*x^2 + a. F16 is constructed as F_2(a), where a is the root of x^4 + x + 1.'
+p42
+sg1
+(S'h'
+p43
+tp44
+Rp45
+S'x^4 + 6*x^3 + 3'
+p46
+sg1
+(S'j'
+p47
+tp48
+Rp49
+S'x^4 + x^3 + 2'
+p50
+ss.
